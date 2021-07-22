@@ -25,7 +25,7 @@ btnGenera.addEventListener("click", function () {
     Math.random() * 99999
   );
   document.getElementById("prezzoBiglietto").innerHTML =
-    prezzoFinale.toFixed(2);
+    prezzoFinale.toFixed(2) + "€";
 
   var biglietto = document.getElementById("biglietto");
   biglietto.style.display = "block";
