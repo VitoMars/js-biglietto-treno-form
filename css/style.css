@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* -------------------------------------------------- */
+
+.bg-porpora {
+  background-color: #b91450;
+}
+
+.text-porpora {
+  color: #b91450;
+}
+
+.box {
+  background-color: lightgoldenrodyellow;
+  height: 300px;
+  width: 100%;
+  display: none;
+}
