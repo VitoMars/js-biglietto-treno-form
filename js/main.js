@@ -6,6 +6,8 @@ btnGenera.addEventListener("click", function () {
   var km = document.getElementById("km").value;
   var fasciaEta = document.getElementById("fascia-eta").value;
 
+  document.getElementById("nomeValue").innerHTML = "ciao";
+
   var biglietto = document.getElementById("biglietto");
   biglietto.style.display = "block";
 });

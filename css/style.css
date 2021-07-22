@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* -------------------------------------------------- */
 
 .bg-porpora {
@@ -13,9 +14,7 @@
   color: #b91450;
 }
 
-.box {
-  background-color: lightgoldenrodyellow;
-  height: 300px;
+#biglietto {
   width: 100%;
-  display: none;
+  display: block;
 }
