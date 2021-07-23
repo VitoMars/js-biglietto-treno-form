@@ -30,8 +30,10 @@ select {
   border: 2px solid #b91450;
 }
 
-input:focus {
+input:focus,
+label:focus {
   background-color: #b91450;
+  color: white;
 }
 
 :focus::placeholder {
