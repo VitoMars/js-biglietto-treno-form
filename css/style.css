@@ -22,3 +22,18 @@
   width: 100%;
   display: none;
 }
+
+input,
+select {
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid #b91450;
+}
+
+input:focus {
+  background-color: #b91450;
+}
+
+:focus::placeholder {
+  color: white;
+}
